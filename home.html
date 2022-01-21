@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapitalsAndFLags</title>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GDJ-World-Flags-Globe.svg/2093px-GDJ-World-Flags-Globe.svg.png
+    ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- home section  -->
+
+    <!-- <section id="home">
+        <div class="container fluid">
+            <div class="box">
+                <h1>O'yinimizga hush kelibsiz</h1>
+                <div class="buttonlar">
+                    <button onclick="flag()">Bayroqlar</button>
+                    <button onclick="copital()">Poytaxtlar</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="kirish">
+        <div id="signin" class="container p-4 shadow rounded">
+            <form action="">
+                <h1 class="text-center">O'yinga kirish</h1>
+                <!-- <label for="email">Email</label> -->
+                <input type="email" name="email" id="email" class="form-control">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" name="password" id="password" class="form-control">
+                <!-- <label for="fuulname">Username</label> -->
+                <!-- <input type="text" name="username" id="fuulname" class="form-control"> -->
+                <div class="d-flex justify-content-center mt-4">
+                    <button id="signup" class="btn  me-3">Sign.Up</button>
+                    <button id="signIn" class="btn btn-primary">Sign.In</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- modal tegi -->
+
+    <div id="modal">
+        <div class="box">
+            <h1 id="over">Sizning balingiz</h1>
+            <h5 id="h5"></h5>
+            <button onclick="home2222()"><i class="fas fa-home"></i>
+                <p>Bayroqlar</p>
+            </button>
+        </div>
+    </div>
+
+    <!-- flag section -->
+
+    <section id="flag">
+        <div class="container">
+            <div class="box">
+                <div class="top">
+                    <button onclick="hom2222e()"><i class="fas fa-home"></i></button>
+                    <div class="heir" id="heir">
+                    </div>
+                </div>
+                <div class="NextTop">
+                    <div class="count">
+                        <h1 class="d-flex" id="count">0</h1>
+                    </div>
+                </div>
+                <div class="bus">
+                    <div class="minibus" id="minibus">
+                    </div>
+                </div>
+                <div class="flag" id="FlagTag">
+                </div>
+                <div class="answer" id="choicesList">
+                </div>
+                <div class="past">
+                    <div class="bottom">
+                        <h3 id="sana" class="text-light py-3"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./js/firebase.js" type="module"></script>
+    <script src="./js/index2.js" type="module"></script>
+    <script src="natija.js" type="module"></script>
+
+</body>
+
+</html>
